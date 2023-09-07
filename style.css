@@ -91,6 +91,11 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+.lower-section .instruction {
+  position: relative;
+  top: 15px;
+}
 .options {
   margin-top: 20px;
   /* border: 3px green solid; */
@@ -171,6 +176,9 @@ main {
   }
   .lower-section {
     flex-direction: column;
+  }
+  .lower-section .instruction {
+    top: 40px;
   }
   main {
     flex-direction: row;
